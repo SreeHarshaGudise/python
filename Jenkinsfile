@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                sh 'pwd'
+                sh 'cd /home/harsha/Downloads'
                 sh 'ls -l'
             }
         }
